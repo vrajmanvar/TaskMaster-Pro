@@ -1,0 +1,29 @@
+.detail-container h2 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 70px;
+  text-decoration: underline;
+}
+
+.detail-container-light h2 {
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 70px;
+  text-decoration: underline;
+}
+
+.detail-container p {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 100px;
+}
+
+.detail-container-light p {
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 100px;
+}

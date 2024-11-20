@@ -1,0 +1,36 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.heading1 {
+  color: white;
+}
+
+.heading1-light {
+  color: black;
+}
+
+.enter_text {
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.add {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd700;
+}
+
+.input {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 90%;
+}

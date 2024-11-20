@@ -1,0 +1,28 @@
+.sapretthem {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.AboutTodo {
+  color: white;
+}
+
+.AboutTodo-light {
+  color: black;
+}
+
+.loader {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 100px;
+}
+
+.loader-light {
+  text-align: center;
+  color: black;
+  position: relative;
+  top: 100px;
+}

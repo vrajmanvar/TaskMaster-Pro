@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #e82323;
+}
+
+.main-light {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.inner {
+  background-color: #272727;
+  padding: 35px 25px;
+  width: 35%;
+  border-radius: 15px;
+  color: #ebebeb;
+  -webkit-box-shadow: -5px 9px 20px 2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: -5px 9px 20px 2px rgba(255, 255, 255, 0.75);
+  box-shadow: -5px 9px 20px 2px rgba(255, 255, 255, 0.75);
+  height: 60%;
+  margin-top: 50px;
+}
+
+.inner-light {
+  background-color: #ebebeb;
+  padding: 35px 25px;
+  width: 35%;
+  border-radius: 15px;
+  color: #272727;
+  -webkit-box-shadow: -5px 9px 20px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 9px 20px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 9px 20px 2px rgba(0, 0, 0, 0.75);
+  height: 60%;
+  margin-top: 50px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.email {
+  margin: 20px 0px 0px 25px;
+}
+
+.password {
+  margin: 20px 0px 0px 25px;
+}
+
+p {
+  margin: 0px;
+}
+
+.input_email,
+.input_psw {
+  padding: 7px;
+  border-radius: 7px;
+  border: none;
+  width: 95%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.input_email-light,
+.input_psw-light {
+  padding: 7px;
+  border-radius: 7px;
+  border: 2px solid black;
+  width: 95%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.input_email.error,
+.input_psw.error {
+  border: 2px solid red;
+  background-color: #edd3d4;
+}
+
+.in {
+  background-color: crimson;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 40%;
+  margin-top: 25px;
+}
+
+.error_msg {
+  color: red;
+}
+
+.movingForAccount {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 10px;
+}

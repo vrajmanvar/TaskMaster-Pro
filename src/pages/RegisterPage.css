@@ -1,0 +1,96 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #272727;
+}
+
+.main-light {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.inner {
+  background-color: #272727;
+  padding: 35px 25px;
+  width: 35%;
+  border-radius: 15px;
+  color: #ebebeb;
+  -webkit-box-shadow: -5px 9px 20px 2px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: -5px 9px 20px 2px rgba(255, 255, 255, 0.75);
+  box-shadow: -5px 9px 20px 2px rgba(255, 255, 255, 0.75);
+}
+
+.inner-light {
+  background-color: #ebebeb;
+  padding: 35px 25px;
+  width: 35%;
+  /* margin: auto; */
+  border-radius: 15px;
+  color: #272727;
+  -webkit-box-shadow: -5px 9px 20px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 9px 20px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 9px 20px 2px rgba(0, 0, 0, 0.75);
+}
+
+.note_createAccount {
+  text-align: center;
+}
+
+.username,
+.email,
+.password,
+.confirm_password {
+  margin: 20px 0px 0px 25px;
+}
+
+.input_email,
+.input_psw,
+.input_username,
+.input_confirmPassword {
+  padding: 7px;
+  border-radius: 7px;
+  border: none;
+  width: 95%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.input_email-light,
+.input_psw-light,
+.input_username-light,
+.input_confirmPassword-light {
+  padding: 7px;
+  border-radius: 7px;
+  border: 2px solid black;
+  width: 95%;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.input_email.error,
+.input_psw.error,
+.input_username.error,
+.input_confirmPassword.error {
+  border: 2px solid red;
+  background-color: #edd3d4;
+}
+
+.register {
+  background-color: crimson;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 38%;
+  margin-top: 25px;
+}
+
+.error_msg {
+  color: red;
+}

@@ -1,0 +1,58 @@
+.about-container {
+  color: white;
+  width: 52%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutTodo {
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
+
+.AboutTodo-light {
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+
+.yellowline {
+  width: 100%;
+  padding: 2.5px;
+  background-color: rgb(209, 209, 32);
+}
+
+.about-container p {
+  font-size: larger;
+}
+
+.text-container {
+  color: white;
+  width: 52%;
+  margin: auto;
+  text-align: start;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.text-container-light {
+  color: black;
+  width: 52%;
+  margin: auto;
+  text-align: start;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.redtext {
+  color: rgb(206, 45, 45);
+}
